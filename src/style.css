@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+section {
+  padding-top: 24px;
+  box-shadow: 1px 6px 17px -1px rgba(34, 60, 80, 19%);
+  width: 60vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 16px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+button {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  padding: 24px 0;
+  font-size: 16px;
+  color: #d0d0d0;
+  border-top: 1px solid #d0d0d0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.fa-sync {
+  font-size: 20px;
+}
+
+.checkbox {
+  width: 10%;
+}
+
+.task-change {
+  padding-bottom: 0;
+}
+
+.fas {
+  font-size: 16px;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+
+.task-container {
+  padding: 24px 24px 24px 8px;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  align-items: center;
+}
+
+.checked-task {
+  background-color: #fffed3;
+}
+
+.line-task {
+  text-decoration: line-through;
+  background-color: #fffed3;
+}
+
+span {
+  flex: 1;
+  font-size: 18px;
+}
+
+.fa-trash-alt {
+  display: none;
+}
+
+.trash-active {
+  display: block;
+}
+
+.edit-inactive {
+  display: none;
+}
+
+.drag-over {
+  border: 2px solid black;
+}
